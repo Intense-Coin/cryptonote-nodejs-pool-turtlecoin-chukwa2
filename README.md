@@ -786,13 +786,27 @@ Curl can be used to use the JSON-RPC commands from command-line. Here is an exam
 curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"height":100}}'
 ```
 
+TurtleCoin Section
+===
+
+* 1- Run daemon with enable-blockexplorer command
+```bash
+./TurtleCoind --enable-blockexplorer 
+```
+* 2- Run the wallet-api with coinbase transaction  
+```bash
+./wallet-api --scan-coinbase-transactions  --rpc-password yourRpcPasssword(Not wallet password) --no-console
+```
+* 3-Open the wallet with Curl command 
+```bash
+curl -X POST "http://127.0.0.1:8070/wallet/open" -H "accept: application/json" -H "X-API-KEY: yourRpcPasssword" -H "Content-Type: application/json" -d "{ \"daemonHost\": \"127.0.0.1\", \"daemonPort\": 11898, \"filename\": \"/your/wallet/file/address/name.wallet\", \"password\": \"YourWalletPassword\"}"
+```
 
 ### Monitoring Your Pool
 
 * To inspect and make changes to redis I suggest using [redis-commander](https://github.com/joeferner/redis-commander)
 * To monitor server load for CPU, Network, IO, etc - I suggest using [Netdata](https://github.com/firehol/netdata)
 * To keep your pool node script running in background, logging to file, and automatically restarting if it crashes - I suggest using [forever](https://github.com/nodejitsu/forever) or [PM2](https://github.com/Unitech/pm2)
-
 
 Community / Support
 ===
@@ -802,8 +816,7 @@ Community / Support
 
 #### Pools Using This Software
 
-* https://pool.leviar.io/
-* https://pool.croat.community/
+* https://allcoinspool.com/
 
 Referral Links
 --------------
