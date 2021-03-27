@@ -795,7 +795,7 @@ TurtleCoin Section
 ```
 * 2- Run the wallet-api with coinbase transaction  
 ```bash
-./wallet-api --scan-coinbase-transactions  --rpc-password yourRpcPasssword(Not wallet password) --no-console
+./wallet-api --scan-coinbase-transactions  --rpc-password yourRpcPasssword(Not wallet password)  
 ```
 * 3-Open the wallet with Curl command 
 ```bash
