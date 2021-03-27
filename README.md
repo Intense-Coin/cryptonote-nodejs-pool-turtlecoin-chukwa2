@@ -8,9 +8,9 @@ Turtlecoin Pool
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins. Comes with lightweight example front-end script which uses the pool's AJAX API. Support for Cryptonight (Original, Monero v7, Stellite v7), Cryptonight Light (Original, Aeon v7, IPBC) Cryptonight Fast (Electronero/Crystaleum), and Cryptonight Heavy (Sumokoin) algorithms.
 
 #### Please read Turtlecoin Section 
-* New API for TurtleCoine daemon
-* New API for TurlteCoine Wallet
-* New config file
+* New API for TurtleCoin daemon
+* New API for TurlteCoin Wallet
+* New config file with discord support
 * Default config file work with TRTL
 
 #### Table of Contents
