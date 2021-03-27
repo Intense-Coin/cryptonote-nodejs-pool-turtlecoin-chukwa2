@@ -853,7 +853,7 @@ Thanks for supporting my works on this project! If you want to make a donation t
 Credits
 ---------
 
-* [masterprogrammer513](//github.com/masterprogrammer513) - Developer of cryptonote-nodejs-pool software
+* [masterprogrammer513](//github.com/masterprogrammer513) - Developer of cryptonote-nodejs-pool-turtlecoin-chukwa2 software
 
 License
 -------
