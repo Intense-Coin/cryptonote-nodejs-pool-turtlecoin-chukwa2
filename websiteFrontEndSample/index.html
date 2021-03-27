@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 
-    <title>TurtleCoin Mining Pool</title>
+    <title>Mining Pool</title>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.3/jquery.timeago.min.js"></script>
@@ -25,7 +25,7 @@
 
     <!-- Navigation -->
     <div class="nav-side-menu">
-    <div class="brand"><a href="/"><span><img src="android-icon-36x36.png"></span><span>  TurtleCoin</span> <span>Mining Pool</span></a></div>
+    <div class="brand"><a href="/"><span id="coinSymbol"></span> <span data-tkey="miningPool">Mining Pool</span></a></div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapsed out">
@@ -89,16 +89,10 @@
 
 <!-- Footer -->
 <footer>
- <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-               new Crate({
-                 server: '822164723381436436', // AllCoinsPool
-                 channel: '822166077601611806' // #help-support🆘
-               })
-            </script>
     <div class="text-muted">
-        Powered by <a target="_blank" href="https://github.com/masterprogrammer513/cryptonote-nodejs-pool-turtlecoin-chukwa2"><i class="fa fa-github"></i> AllCoinsPool.Com</a>
+        <span data-tkey="poweredBy">Powered by</span> <a target="_blank" href="https://github.com/dvandal/cryptonote-nodejs-pool"><i class="fa fa-github"></i> cryptonote-nodejs-pool</a>
         <span id="poolVersion"></span>
-	<span class="hidden-xs">open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a></span>
+        <span class="hidden-xs"><span data-tkey="openSource">open sourced under the</span> <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a></span>
     </div>
 </footer>
 
