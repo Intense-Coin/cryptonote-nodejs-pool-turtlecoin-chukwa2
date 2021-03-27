@@ -2189,8 +2189,7 @@ function home_InitTemplate(parentStats, siblingStats) {
     let coin = parentStats.config.coin
     let minerInfo = []
     let efforts = []
-    let soloEfforts = []
-	
+
     if ($(`#networkStats${coin}`).length == 0) {
         minerInfo.push({blocks: parentStats.pool.totalBlocks.toString(), 
                         blocksSolo: parentStats.pool.totalBlocksSolo.toString(),
@@ -2200,8 +2199,6 @@ function home_InitTemplate(parentStats, siblingStats) {
                         minersSolo: parentStats.pool.minersSolo.toString()})
         
         efforts.push({coin: coin, effort: `${(parentStats.pool.roundHashes / parentStats.network.difficulty * 100).toFixed(1)}%`,symbol: parentStats.config.symbol})
-		soloEfforts.push({coin: coin, soloEffort: `${(parentStats.pool.hashrateSolo / parentStats.network.difficulty * 100).toFixed(1)}%`,symbol: parentStats.config.symbol})
-
         
         let template = $('#siblingTemplate').html()
         Mustache.parse(template)
@@ -2233,7 +2230,6 @@ function home_InitTemplate(parentStats, siblingStats) {
                         minersSolo: siblingStats[key].pool.minersSolo.toString()})
         
         efforts.push({coin: key, effort: `${(siblingStats[key].pool.roundHashes / siblingStats[key].network.difficulty * 100).toFixed(1)}%`, symbol: siblingStats[key].config.symbol});     
-        soloEfforts.push({coin: key, soloEffort: `${(siblingStats[key].pool.hashrateSolo / siblingStats[key].network.difficulty * 100).toFixed(1)}%`, symbol: siblingStats[key].config.symbol});     
 
         if (siblingStats[key].pool.lastBlockFound) {
             let lastChildBlockFound = parseInt(siblingStats[key].pool.lastBlockFound)
@@ -2247,9 +2243,7 @@ function home_InitTemplate(parentStats, siblingStats) {
         updateText(`networkLastReward${key}`, getReadableCoin(siblingStats[key], siblingStats[key].lastblock.reward));
         updateText(`poolMiners${key}`, `${siblingStats[key].pool.miners}/${siblingStats[key].pool.minersSolo}`);
         updateText(`blocksTotal${key}`, `${siblingStats[key].pool.totalBlocks}/${siblingStats[key].pool.totalBlocksSolo}`);
-        updateText(`currentEffort${key}`, 'Prop: ' + (siblingStats[key].pool.roundHashes / siblingStats[key].network.difficulty * 100).toFixed(1) + '%');
-        updateText(`currentSoloEffort${key}`,'Solo: ' +  (siblingStats[key].pool.hashrateSolo / siblingStats[key].network.difficulty * 100).toFixed(1) + '%');
-
+        updateText(`currentEffort${key}`, (siblingStats[key].pool.roundHashes / siblingStats[key].network.difficulty * 100).toFixed(1) + '%');
     })
 
     sortElementList($(`#networkStats`), $(`#networkStats>div`), siblingStats)
@@ -2265,8 +2259,6 @@ function home_InitTemplate(parentStats, siblingStats) {
         let template = $('#mainPoolTemplate').html()
         Mustache.parse(template)
         let rendered = Mustache.render(template, {coin:parentStats.config.coin, blocks: minerInfo, efforts: efforts})
-        $(`#mainPoolStats`).append(rendered)
-		rendered = Mustache.render(template, {coin:parentStats.config.coin, blocks: minerInfo, soloEfforts: soloEfforts})
         $(`#mainPoolStats`).append(rendered)
     }
     
@@ -2318,7 +2310,5 @@ function home_InitTemplate(parentStats, siblingStats) {
 
     updateText('blockSolvedTime', getReadableTime(parentStats.network.difficulty / parentStats.pool.hashrate));
 
-    updateText(`currentEffort${coin}`,'Prop: ' +  (parentStats.pool.roundHashes / parentStats.network.difficulty * 100).toFixed(1) + '%');
-	updateText(`currentSoloEffort${coin}`,'Solo: ' + (parentStats.pool.hashrateSolo / parentStats.network.difficulty * 100).toFixed(1) + '%');
-
+    updateText(`currentEffort${coin}`, (parentStats.pool.roundHashes / parentStats.network.difficulty * 100).toFixed(1) + '%');
 }
