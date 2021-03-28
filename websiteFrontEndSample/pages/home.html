@@ -61,7 +61,6 @@
             <div class="icon">
                 <span class="fa fa-line-chart"></span>
             </div>
-			
             <div class="content">
                 <div class="text"><span data-tkey="currentEffort">Current Effort</span></div>
                 <div class="value">
@@ -69,15 +68,6 @@
                     <span class="smallText" id="currentEffort{{coin}}">{{effort}}</span><sup>{{symbol}}</sup>&nbsp;
                     {{/efforts}}
                 </div>
-
-				<div class="value"  data-tkey="currentSoloEffort">
-								                    {{#soloEfforts}}
-
-                    <span class="smallText" id="currentSoloEffort{{coin}}">{soloEffort}}</span><sup>{{symbol}}</sup>&nbsp;
-									                    {{/soloEfforts}}
-
-                </div>
-
             </div>
         </div>
     </div>
@@ -282,8 +272,8 @@ currentPage = {
 
             updateText(`poolMiners${updateKey}`, `${stats.pool.miners}/${stats.pool.minersSolo}`);
             updateText(`blocksTotal${updateKey}`, `${stats.pool.totalBlocks}/${stats.pool.totalBlocksSolo}`);
-            updateText(`currentEffort${updateKey}`, 'Prop: ' + (stats.pool.roundHashes / stats.network.difficulty * 100).toFixed(1) + '%');
-			updateText(`currentSoloEffort${updateKey}`,'Solo: ' + (stats.pool.hashrateSolo / stats.network.difficulty * 100).toFixed(1) + '%');
+            updateText(`currentEffort${updateKey}`, (stats.pool.roundHashes / stats.network.difficulty * 100).toFixed(1) + '%');
+
 
             let el = updateText('lastHash', lastStats.lastblock.hash)
             if (el)
