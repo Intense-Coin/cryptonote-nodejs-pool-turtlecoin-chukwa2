@@ -815,40 +815,12 @@ Community / Support
 ===
 
 * [GitHub Issues](https://github.com/masterprogrammer513/cryptonote-nodejs-pool-turtlecoin-chukwa2/issues)
-* [Telegram Group](https://t.me/AllCoinsPool)
-* [Discord Group](https://discord.gg/kZb5VbrSnS)
+
 
 #### Pools Using This Software
 
 * https://allcoinspool.com/
 
-Referral Links
---------------
-* NiceHash Miner - Test your mining pool: [https://www.nicehash.com/?refby=938d7799-8f8e-4935-975e-897a1567b1ed](https://www.nicehash.com/?refby=938d7799-8f8e-4935-975e-897a1567b1ed)
-* Binance Exchange - Buy and Sell cryptos: [https://www.binance.com/en/register?ref=92696209](https://www.binance.com/en/register?ref=92696209)
-* Coinbase Wallet - Buy 100$ USD and get 10$ USD free: [https://www.coinbase.com/join/vandal_y](https://www.coinbase.com/join/vandal_y)
-* Shakepay Wallet - Buy 100$ CAD and get 30$ CAD free: [https://shakepay.me/r/VDAIT0G](https://shakepay.me/r/VDAIT0G)
-
-Donations
----------
-
-Thanks for supporting my works on this project! If you want to make a donation to [masterprogrammer513](https://github.com/masterprogrammer513/), the developper of this project, you can send any amount of your choice to one of theses addresses:
-
-*   BTC: '3M3NTQkyFqfbTsmXi6yL1VyJzoFgRMUooN',
-* 	BCH: 'qqz6jgchx5w2jgsq2rnx68z8l3eg9mql7gypccvv40',
-* 	XMR: '48NXmBFRJGSYiZKnxpL5MwJxdpUT5yR3H3ZGpkaG2vymJdt5rZebXUFiZ3yMLak3vuesSCQy7S8yN12XXHbi6bJUPywBRr5',
-* 	DASH: 'XnsMZBadX2RQvQjfCuG58bqSDagDfMCDSM',
-* 	ETH: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	ETC: '0x60D922A8968fEC42A299f77F8CBBEE0b56ceEd8b',
-* 	LTC: 'ltc1qk4rrn2xfmkadyay7rspkxdkd98dklva0mp9fn6',
-* 	USDC: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	REP: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	BAT: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	LINK: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	DAI: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	OXT: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	ZRX: '0x86c61605B15B4a71520beD51d50403E5eAd01B91',
-* 	TRTL: 'TRTLuzoc4NwfsXC7FUsNTefb43CFhi6ddhBWcTSUv37UB3eN2M5Yg4tCNCxReqvY5DQzLPz5t4McHY8CvRgF5uRMFecrtm3WMew'
 
 Credits
 ---------
