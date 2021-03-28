@@ -43,7 +43,7 @@
     <!-- Mining Profit Calculator -->
     <div id="miningProfitCalc{{coin}}">
         <h3><span data-tkey="estimateProfit">Estimate Mining Profits</span></h3>
- <div id="calcHashHolder">
+        <div id="calcHashHolder">
             <div class="input-group">
                 <input class="form-control" id="calcHashRate" data-tplaceholder="enterYourHashrate" placeholder="Enter Your Hash Rate" type="number">
                 <div class="input-group-btn">
@@ -59,11 +59,9 @@
                 <span class="input-group-addon">=</span>
             </div>
         </div>
-         <iframe src="https://www.cryptunit.com/widgets/2.php?coin=20&small=false&transparent=false&black=false&hr=10000" height="160" width="100%" frameBorder="0" style="overflow:hidden;" scrolling="no" ></iframe>
     </div>
 </script>
-<script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
-<coingecko-coin-converter-widget  coin-id="turtlecoin" currency="usd" background-color="#ffffff" font-color="#4c4c4c" locale="en"></coingecko-coin-converter-widget>
+
 <script id="calcHashResultTemplate" type="text/x-handlebars-template">
     <span class="input-group-addon" id="calcHashResultsHolder{{coin}}"><div id="calcHashAmount{{coin}}"><span id="calcHashAmount{{coin}}1"></span><br/><span id="calcHashAmount{{coin}}2"></span></div> <div id="calcHashPeriod{{coin}}"><span data-tkey="perDay">per day</span></div></span>
 </script>
