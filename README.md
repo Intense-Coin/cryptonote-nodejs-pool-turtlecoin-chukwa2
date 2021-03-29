@@ -826,6 +826,7 @@ Credits
 ---------
 
 * [masterprogrammer513](//github.com/masterprogrammer513) - Developer of cryptonote-nodejs-pool-turtlecoin-chukwa2 software
+* [crappyrules](//github.com/crappyrules) - removed bottomfeeding roach reflinks and begging for donations
 
 License
 -------
