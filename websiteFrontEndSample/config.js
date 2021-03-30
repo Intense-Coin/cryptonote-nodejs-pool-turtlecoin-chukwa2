@@ -1,7 +1,7 @@
 var parentCoin = "TurtleCoin";
 
 var api = "Api adress and port sample.com:8117";
-var poolHost = "turtlecoin.allcoinspool.com";
+var poolHost = "example.com";
 
 var email = "support email";
 var telegram = "Telegram Adress";
