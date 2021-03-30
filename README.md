@@ -813,13 +813,14 @@ Community / Support
 
 #### Pools Using This Software
 
-* http://turtle.imhard4.men/
+* lots of them
 
 
 Credits
 ---------
 
-* [masterprogrammer513](//github.com/masterprogrammer513) - scammer
+* [fancoder](//github.com/fancoder) - Developper on cryptonote-universal-pool project from which current project is forked.
+* [dvandal](//github.com/dvandal) - Developer of cryptonote-nodejs-pool software
 * [crappyrules](//github.com/crappyrules) - removed bottomfeeding roach reflinks and begging for donations
 
 License
