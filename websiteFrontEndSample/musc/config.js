@@ -1,11 +1,11 @@
-var api = "http://turtlecoin.allcoinspool.com:8117";
+var api = "http://example.com:8117";
 let parentCoin = "TurtleCoin"
-var poolHost = "turtlecoin.allcoinspool.com";
+var poolHost = "example.com";
 
 var email = "support@poolhost.com";
-var telegram = "https://t.me/AllCoinsPool";
-var discord = "https://discordapp.com/invite/AllCoinsPool";
-var facebook = "https://www.facebook.com/AllCoinsPool";
+var telegram = "https://t.me/";
+var discord = "https://discordapp.com/invite/";
+var facebook = "https://www.facebook.com/";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-DOGE", "{symbol}-USDT", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
