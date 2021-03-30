@@ -34,23 +34,23 @@
         "minerTimeout": 3600,
         "ports": [
             {
-                "port": 10380,
+                "port": 3333,
                 "difficulty": 50000,
                 "desc": "Tortoise (Low end)"
             },
             {
-                "port": 10381,
+                "port": 5555,
                 "difficulty": 500000,
                 "desc": "Swimming Leatherback (Mid range)"
             },
             {
-                "port": 10382,
+                "port": 7777,
                 "difficulty": 1000000,
                 "desc": "Turtle in low Earth orbit (High end)"
             }
 			,
             {
-                "port": 10383,
+                "port": 8888,
                 "difficulty": 2000000,
                 "desc": "Jet Turtle ! (OMG)"
             }
@@ -194,7 +194,7 @@
     },
     "email": {
         "enabled": true,
-        "fromAddress": "donotreply@allcoinspool.com",
+        "fromAddress": "email@example.com",
         "transport": "sendmail",
         "sendmail": {
             "path": "/usr/sbin/sendmail"
@@ -205,7 +205,7 @@
             "secure": false,
             "auth": {
                 "user": "donotreply@allcoinspool.com",
-                "pass": "cin0h##~~"
+                "pass": "cin0h##~~LMAO!"
             },
             "tls": {
                 "rejectUnauthorized": false
@@ -224,7 +224,7 @@
     "telegram": {
         "enabled": false,
         "token": "",
-        "channel": "AllCoinsPool",
+        "channel": "",
         "channelStats": {
             "enabled": false,
             "interval": 30
