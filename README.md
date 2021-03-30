@@ -1,12 +1,8 @@
 # cryptonote-nodejs-pool-turtlecoin-chukwa2
 ======================
 
-#### This pool is now operating on this website:
+
 Turtlecoin Pool
-* https://allcoinspool.com/
-* [GitHub Issues](https://github.com/masterprogrammer513/cryptonote-nodejs-pool-turtlecoin-chukwa2/issues)
-* [Telegram Group](https://t.me/AllCoinsPool)
-* [Discord Group](https://discord.gg/kZb5VbrSnS)
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins. Comes with lightweight example front-end script which uses the pool's AJAX API. Support for Cryptonight (Original, Monero v7, Stellite v7), Cryptonight Light (Original, Aeon v7, IPBC) Cryptonight Fast (Electronero/Crystaleum), and Cryptonight Heavy (Sumokoin) algorithms.
 
@@ -112,10 +108,10 @@ Usage
 
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
-* [Node.js](http://nodejs.org/) v11.0+
+* [Node.js](http://nodejs.org/) v12.0+
   * For Ubuntu: 
  ```
-  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
+  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
   sudo apt-get install -y nodejs
  ```
   * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
@@ -124,8 +120,6 @@ Usage
 * [Redis](http://redis.io/) key-value store v2.6+ 
   * For Ubuntu: 
 ```
-sudo add-apt-repository ppa:chris-lea/redis-server
-sudo apt-get update
 sudo apt-get install redis-server
  ```
  Dont forget to tune redis-server:
@@ -814,18 +808,18 @@ curl -X POST "http://127.0.0.1:8070/wallet/open" -H "accept: application/json" -
 Community / Support
 ===
 
-* [GitHub Issues](https://github.com/masterprogrammer513/cryptonote-nodejs-pool-turtlecoin-chukwa2/issues)
+* [GitHub Issues](https://github.com/crappyrules/cryptonote-nodejs-pool-turtlecoin-chukwa2/issues)
 
 
 #### Pools Using This Software
 
-* https://allcoinspool.com/
+* http://turtle.imhard4.men/
 
 
 Credits
 ---------
 
-* [masterprogrammer513](//github.com/masterprogrammer513) - Developer of cryptonote-nodejs-pool-turtlecoin-chukwa2 software
+* [masterprogrammer513](//github.com/masterprogrammer513) - scammer
 * [crappyrules](//github.com/crappyrules) - removed bottomfeeding roach reflinks and begging for donations
 
 License
