@@ -14,9 +14,9 @@
 		"bignum": "*",
 		"bufferutil": "*",
 		"cli-color": "*",
-		"cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
-		"cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
-		"dateformat": "*",
+		"cryptoforknote-util": "https://github.com/MoneroOcean/node-cryptoforknote-util.git",
+		"cryptonight-hashing": "https://github.com/MoneroOcean/node-cryptonight-hashing.git",
+		"dateformat": "4.5.1",
 		"discord.js": "^12.5.1",
 		"domexception": "*",
 		"mailgun.js": "*",
@@ -26,7 +26,7 @@
 		"redis": "*",
 		"socket.io": "*",
 		"time-ago": "*",
-		"turtlecoin-crypto": "git://github.com/turtlecoin/turtlecoin-crypto.git",
+		"turtlecoin-crypto": "https://github.com/turtlecoin/turtlecoin-crypto.git",
 		"utf-8-validate": "*"
 	},
 	"engines": {
